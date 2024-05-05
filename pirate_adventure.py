@@ -2,10 +2,10 @@ import time
 import random
 
 # Define global variables
-crew = ["Captain Blackbeard", "First Mate Red", "Navigator Grey", "Cook Brown", "Gunman Blue"]
+crew = ["Captain Blackbeard", "First Mate Shaw", "Navigator Boone", "Cookhouse Jack", "Gunnery Sergeant Clay"]
 
 # Introduction to the game
 def introduction():
-    print("Welcome aboard, ye scurvy dogs!")
-    print("I'm Captain Blackbeard, and we're on a grand adventure to find the legendary pirate treasure!")
-    print("Arrr! Let's set sail and see what the seas have in store for us!")
+    print("Avast, me hearty crew!")
+    print("I'm Captain Blackbeard, captain of the Jolly Roger, and I seek the treasure lost to time!")
+    print("Chart a course, men! We're going on a treasure hunt!")
