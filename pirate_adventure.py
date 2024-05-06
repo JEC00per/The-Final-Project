@@ -68,3 +68,19 @@ def smugglers_cove():
     else:
         print("\nThe coast be clear, our contacts in the cove come in handy at last!")
         treasure_awaits()
+
+# Function for combat encounter
+def combat():
+    print("\nIt be a fierce battle, keep yer wits about ye!")
+    print("Fight to the last, we've come too far to go wobbly here!")
+
+    time.sleep(2)
+
+    victory_chance = 0.6  # 60% chance of victory
+    if random.random() < victory_chance:
+        print("\nWe drink to our victory against these scum, crew! Keep an eye out for more as we approach the treasure!")
+        treasure_awaits()
+    else:
+        print("\nThey've overwhelmed our men, this is the end for us, mates.")
+        print("We won't die in this cell, one day we'll escape to find the treasure again, on my name as Blackbeard!")
+        
