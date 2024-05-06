@@ -83,4 +83,17 @@ def combat():
     else:
         print("\nThey've overwhelmed our men, this is the end for us, mates.")
         print("We won't die in this cell, one day we'll escape to find the treasure again, on my name as Blackbeard!")
-        
+
+# Function when treasure is found
+def treasure_awaits():
+    print("\nWe've struck the chest, roll out the ale, it's time to celebrate, scalawags!")
+    print("Piles of gold and ornate jewelry, chalices and gemstones and trinkets galore!")
+    print("A fine job, me hearty crew! Until we next sail!!!")
+
+# Main function to start the game
+def main():
+    introduction()
+    choose_path()
+
+if __name__ == "__main__":
+    main()
