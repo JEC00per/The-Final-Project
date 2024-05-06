@@ -48,3 +48,23 @@ def devil_triangle():
     else:
         print("\nShe's beginning to flood, the Devil has come from his den to claim us!")
         print("The sea be a cruel master, but we live to fight another day. May our shipwrecked souls find luck.")
+
+# Function for the Pirate Cove path
+def smugglers_cove():
+    print("\nWe've anchored at Pirate Cove, a haven for scoundrels and thieves!")
+    print("The cove be shrouded in mist, and danger lurks around every corner.")
+
+    time.sleep(2)
+
+    print("\nWe must be cautious as we explore the cove. Who knows what secrets it holds?")
+
+    time.sleep(2)
+
+    encounter_chance = 0.7  # 70% chance of encountering pirates
+    if random.random() < encounter_chance:
+        print("\nScoundrels strike from the shadows, men! Draw your swords!")
+        print("Prepare for a brawl, ye scurvy dogs!")
+        combat()
+    else:
+        print("\nThe coast be clear, our contacts in the cove come in handy at last!")
+        treasure_awaits()
