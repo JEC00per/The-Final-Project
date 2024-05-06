@@ -25,3 +25,26 @@ def choose_path():
     else:
         print("Invalid choice. Try again.")
         choose_path()
+
+# Function for the Stormy Seas path
+def devil_triangle():
+    print("\nYe scallywags ready the ship as we set sail into the Devil's Triangle!")
+    print("The waves be crashing against the hull, and the wrath of sea is upon us!")
+
+    time.sleep(2)
+
+    print("\nThe sea opens its mouth, a fierce whirlpool descends on our vessel!")
+
+    time.sleep(2)
+
+    print("\nBatten down the hatches and keep the ship afloat!")
+
+    time.sleep(2)
+
+    success_chance = 0.5  # 50% chance of success
+    if random.random() < success_chance:
+        print("\nYe've navigated the stormy seas skillfully, mates! Resume our course towards the treasure!")
+        treasure_awaits()
+    else:
+        print("\nShe's beginning to flood, the Devil has come from his den to claim us!")
+        print("The sea be a cruel master, but we live to fight another day. May our shipwrecked souls find luck.")
